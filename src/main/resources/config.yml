@@ -1,0 +1,16 @@
+# Sounds are plain Minecraft sound keys (see https://minecraft.wiki/w/Sounds.json).
+# Leave a value empty ("") to play nothing. Custom resource pack sounds work too.
+sounds:
+  open: "block.chest.open"
+  close: "block.chest.close"
+  sell: "entity.experience_orb.pickup"
+  volume: 1.0
+  pitch: 1.0
+
+# The button in the last slot of the menu. Use GREEN_STAINED_GLASS_PANE or
+# LIME_STAINED_GLASS_PANE (or any other item).
+button-material: GREEN_STAINED_GLASS_PANE
+
+# false = named / enchanted / damaged items and filled shulker boxes are NOT sold
+# (they stay in the menu and are given back when it closes). Protects shulker contents.
+sell-modified-items: false

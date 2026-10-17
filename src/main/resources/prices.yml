@@ -1,0 +1,72 @@
+# SellChest prices (money you get PER ITEM).
+#
+#   ITEM: price
+#
+# * Item names are Bukkit material names:
+#   https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# * Items that are not listed here (or are set to 0) cannot be sold.
+# * Add as many lines as you like.
+#
+# After editing, run  /sell reload  (or restart the server).
+
+# --- mining ---
+COAL: 4.0
+RAW_COPPER: 3.0
+COPPER_INGOT: 4.0
+RAW_IRON: 6.0
+IRON_INGOT: 8.0
+RAW_GOLD: 10.0
+GOLD_INGOT: 14.0
+REDSTONE: 3.0
+LAPIS_LAZULI: 4.0
+QUARTZ: 4.0
+DIAMOND: 100.0
+EMERALD: 60.0
+NETHERITE_SCRAP: 400.0
+NETHERITE_INGOT: 1800.0
+OBSIDIAN: 15.0
+ANCIENT_DEBRIS: 450.0
+
+# --- blocks ---
+COBBLESTONE: 0.5
+STONE: 1.0
+DEEPSLATE: 1.0
+COBBLED_DEEPSLATE: 0.5
+DIRT: 0.2
+SAND: 0.5
+GRAVEL: 0.5
+NETHERRACK: 0.2
+END_STONE: 1.5
+OAK_LOG: 2.0
+SPRUCE_LOG: 2.0
+BIRCH_LOG: 2.0
+
+# --- farming ---
+WHEAT: 1.5
+CARROT: 1.0
+POTATO: 1.0
+BEETROOT: 1.0
+SUGAR_CANE: 1.0
+MELON_SLICE: 0.5
+PUMPKIN: 2.0
+SWEET_BERRIES: 1.0
+NETHER_WART: 3.0
+CACTUS: 1.0
+BAMBOO: 0.5
+
+# --- mob drops ---
+ROTTEN_FLESH: 0.5
+BONE: 1.5
+STRING: 1.5
+SPIDER_EYE: 2.0
+GUNPOWDER: 4.0
+ENDER_PEARL: 25.0
+BLAZE_ROD: 15.0
+GHAST_TEAR: 50.0
+SLIME_BALL: 5.0
+MAGMA_CREAM: 8.0
+SHULKER_SHELL: 200.0
+PHANTOM_MEMBRANE: 10.0
+ARROW: 1.0
+FEATHER: 1.0
+LEATHER: 2.0

@@ -1,0 +1,18 @@
+name: SellChest
+version: '${project.version}'
+main: com.sellchest.SellChest
+api-version: '1.21'
+depend: [Vault]
+description: Chest style sell menu. Put items in, click the green pane to sell.
+commands:
+  sell:
+    description: Open the sell menu.
+    usage: /sell [reload]
+    permission: sellchest.use
+permissions:
+  sellchest.use:
+    description: Open the sell menu.
+    default: true
+  sellchest.reload:
+    description: Reload prices.yml and config.yml.
+    default: op
